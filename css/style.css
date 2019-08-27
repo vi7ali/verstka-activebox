@@ -155,3 +155,36 @@ Button
 .btn--red:hover {
     background-color: #e62626;
 }
+
+/* Features */
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0;
+}
+
+.features__item {
+    padding: 0 40px;
+    margin: 25px 0;
+    text-align: center;
+    width: 33.33333%    
+}
+
+.features__icon {
+    margin-bottom: 25px;
+}
+
+.features__title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2d3033;
+    text-transform: uppercase;    
+}
+
+.features__text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+}
