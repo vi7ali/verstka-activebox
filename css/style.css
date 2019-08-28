@@ -27,8 +27,9 @@ Container
 =====================*/
 
 .container {
+    padding: 0 15px;
     width: 100%;
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -249,4 +250,131 @@ Button
 .works__text {
     font-size: 14px;
     color: #fff;    
+}
+
+/* Team */
+
+.team {
+    margin: 100px 0 70px;
+}
+
+.team__inner {
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.team__item {
+    margin-bottom: 30px;
+    width: 25%;
+    padding: 0 15px;
+}
+
+.team__photo {
+    margin-bottom: 25px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.team__name {
+    margin: 8px 0;
+    color: #2d3033;
+    font-size: 22px;
+}
+
+.team__prof {
+    color: #e84545;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.team__text {
+    margin: 25px 0;
+    color: #6c7279;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Social */
+
+.social {
+    display: flex;    
+}
+
+.social__item {
+    margin-right: 4px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e8ecee;
+    transition: background .1s linear;
+}
+
+.social__item:hover {
+    background-color: #c6cacc;
+}
+
+.social__item:hover .social__icon {
+    fill: #000;
+}
+
+.social__icon {
+    display: block;
+    fill: #c6cacc;
+    height: 18px;
+    transition: fill .1s linear;
+}
+
+/* Reviews */
+
+.reviews {
+    background-color: #53354a;
+    overflow: hidden;
+}
+
+.reviews__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reviews__photo {
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+
+.reviews__image {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+
+    transform: translateY(-50%);
+}
+
+.reviews__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 80px;
+}
+
+.reviews__text {
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Cardo', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 1.2;
+}
+
+.reviews__author {
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
 }
