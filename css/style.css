@@ -217,6 +217,7 @@ Button
 }
 
 .works__photo {
+    min-width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;    
@@ -528,6 +529,8 @@ Button
 }
 
 /* Media */
+
+
 @media (max-width: 1300px) {
     /* Works */
     .works__item {
